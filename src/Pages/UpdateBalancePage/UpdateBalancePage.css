@@ -1,0 +1,62 @@
+.update-balance-container {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .error {
+    color: red;
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .balance-info {
+    margin-top: 20px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  .btn-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .btn {
+    width: 48%;
+    padding: 12px;
+    font-size: 1.1rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-add {
+    background-color: #28a745;
+  }
+  
+  .btn-add:hover {
+    background-color: #218838;
+  }
+  
+  .btn-subtract {
+    background-color: #dc3545;
+  }
+  
+  .btn-subtract:hover {
+    background-color: #c82333;
+  }
+  
